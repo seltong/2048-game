@@ -1,0 +1,22 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/teresacristina/AppData/Local/Temp/sbt-structure.xml; session clear-all
+fastOptJS
+~fastOptJS
+all {file:/C:/Users/teresacristina/Documents/ScalaProjects/DoisMil/}doismil/products {file:/C:/Users/teresacristina/Documents/ScalaProjects/DoisMil/}doismil/test:products
+~fastOptJS
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/Isabela/AppData/Local/Temp/sbt-structure.xml; session clear-all
+~fastOptJS
+all {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/products {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/test:products
+exit
+all {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/products {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/test:products
+~fastOptJS
+all {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/products {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/Isabela/AppData/Local/Temp/sbt-structure.xml; session clear-all
+fastOptJS
+~fastOptJS
+all {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/products {file:/C:/Users/Isabela/IdeaProjects/DoisMil/}doismil/test:products
+~fastOptJS
+fastOptJS
+fastOptJs
+fastOptJS
+~fastOptJS
+fastOptJS

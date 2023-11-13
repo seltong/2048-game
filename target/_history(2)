@@ -1,0 +1,4 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/teresacristina/AppData/Local/Temp/sbt-structure.xml; session clear-all
+fastOptJS
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/teresacristina/AppData/Local/Temp/sbt-structure.xml; session clear-all
+~fastOptJS
