@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: default#doismil_sjs0.6_2.12;0.1 :: 0.1 :: release :: Thu Nov 01 14:00:52 BRST 2018[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Thu Nov 01 14:00:52 BRST 2018 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to C:\Users\selto\Desktop\Scala Project\DoisMil\target\scala-2.12\ivy-0.1.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (80ms)[0m

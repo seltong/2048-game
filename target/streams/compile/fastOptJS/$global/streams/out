@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0mFast optimizing C:\Users\selto\Desktop\Scala Project\100_\DoisMil\target\scala-2.12\doismil-fastopt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 244187 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 494300 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 755064 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 245302 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 1553 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 1130073 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 1403651 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 72177 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 18975 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 93960 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 208 -- invalidated: 217[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 630[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 1218648 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 6 -- trees read: 337[0m
