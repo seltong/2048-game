@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+
+    <script typr="text/javascript" src="./target/scala-2.12/doismil-jsdeps.js" ></script>
+    <script type="text/javascript" src="./target/scala-2.12/doismil-fastopt.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+
+</head>
+<body id="corpo" onkeyup="teclaPress(event)">
+
+<script>
+
+jogo.Tabuleiro().jogar()
+
+function teclaPress(event){
+     jogo.Tabuleiro().atualizarJogo(event.keyCode);
+ }
+</script>
+
+<label id="frase">Junte os números e chegue ao 2048!</label>
+<img src="gif/2048.gif" id="imgpos"/>
+
+</body>
+</html>
+
