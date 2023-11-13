@@ -1,0 +1,234 @@
+/*CONFIGURACOES DO CORPO*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: #FDB313;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+::selection {
+    background: #b1dfbb;
+    color: #777777;
+}
+
+/*MENU*/
+
+#imgGo { /*GIF*/
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 110vmin;
+    width: 90vmin;
+}
+
+#btnJogar {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-family: "Times New Roman";
+    font-size: 4vmin;
+    border-radius: 2vmin;
+    width: 15vw;
+    height: 9vh;
+}
+
+#btnJogar:hover {
+    background-color: powderblue;
+}
+
+/*JOGO*/
+
+.pndFundo {
+    min-height: 40px;
+    min-width: 40px;
+    height: 80vmin;
+    width: 80vmin;
+    margin: 5% auto;
+    border-radius: 2.5%;
+}
+
+.linhaBlocos {
+    margin: 0% 0% 0% 2.2%;
+}
+
+.bloco {
+    min-height: 8px;
+    min-width: 8px;
+    height: 18vmin;
+    width: 18vmin;
+    margin: 2% 1.9% 0% 0%;
+    padding: 1% 1% 1% 1%;
+    float: left;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor {
+    position: absolute;
+    font-style: normal;
+    font-size: 15vmin;
+    text-align: center;
+
+}
+
+/*FIM DO JOGO*/
+
+#painelFimJogo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: azure;
+    border-radius: 2vmin;
+    height: 27vh;
+    width: 30vw;
+}
+
+.clslblFimJogo {
+    position: absolute;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 3vmin;
+}
+
+#lblFimJogo {
+    margin-top: 3vh;
+    font-size: 5vmin;
+}
+
+#lblPontuacao {
+    margin-top: 11vh;
+}
+
+.clsbtnFimJogo {
+    position: static;
+    text-align: center;
+    margin-top: 18vh;
+    margin-left: 2vw;
+    background-color: aquamarine;
+    border-radius: 1vmin;
+    font-size: 3vmin;
+    width: 12vw;
+    height: 6vh;
+}
+
+.clsbtnFimJogo:hover {
+    background-color: #b1dfbb;
+}
+
+#imgpos {/*GIF*/
+	position: absolute;
+	left: 6vw;
+    top: 35vmin;
+    width: 15vw;
+}
+
+#frase{
+    position: absolute;
+    float: right;
+    top: 18vmin;
+    margin-left: 70vw;
+    font-size: 4vmin;
+}
+#texto{
+    position: absolute;
+    left: 90px;
+    top: 70px;
+
+}
+
+/*PONTUACAO*/
+
+#painelPont {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 38%;
+    left: 85%;
+    transform: translate(-50%, -25%);
+    background-color: DarkSlateBlue;
+    color: White;
+    border-radius: 3vmin;
+    height: 13vh;
+    width: 21vw;
+}
+
+#lblPont {
+    font-size: 5vmin;
+
+}
+
+.clslblPont{
+     position: static;
+     text-align: center;
+     margin-top: 3.2vh;
+
+}
+
+/*RECORDE*/
+
+#painelRecorde {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 58%;
+    margin-left: 85%;
+    text-orientation: initial;
+    transform: translate(-50%, -25%);
+    background-color: DarkSlateBlue;
+    color: White;
+    border-radius: 3vmin;
+    height: 13vh;
+    width: 21vw;
+}
+
+#lblRecorde {
+    font-size: 5vmin;
+
+}
+
+.clslblRecorde{
+    position: static;
+    text-align: center;
+    margin-top: 3.2vh;
+
+}

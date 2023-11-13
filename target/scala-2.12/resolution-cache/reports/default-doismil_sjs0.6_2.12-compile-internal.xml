@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="doismil_sjs0.6_2.12"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20181210180642"/>
+	<dependencies>
+		<module organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12">
+			<revision name="0.6.7" status="release" pubdate="20170912181953" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3861" time="0" location="C:\Users\selto\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.12\ivy-0.6.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.12/0.6.7/scalatags_sjs0.6_2.12-0.6.7.pom"/>
+				<caller organisation="default" name="doismil_sjs0.6_2.12" conf="compile-internal, compile, provided, optional" rev="0.6.7" rev-constraint-default="0.6.7" rev-constraint-dynamic="0.6.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatags_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1644336" time="0" location="C:\Users\selto\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.12\jars\scalatags_sjs0.6_2.12-0.6.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.12/0.6.7/scalatags_sjs0.6_2.12-0.6.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.12">
+			<revision name="0.1.4" status="release" pubdate="20170708204042" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\selto\.ivy2\cache\com.lihaoyi\sourcecode_sjs0.6_2.12\ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.12/0.1.4/sourcecode_sjs0.6_2.12-0.1.4.pom"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.6.7"/>
+				<artifacts>
+					<artifact name="sourcecode_sjs0.6_2.12" type="bundle" ext="jar" status="no" details="" size="190246" time="0" location="C:\Users\selto\.ivy2\cache\com.lihaoyi\sourcecode_sjs0.6_2.12\bundles\sourcecode_sjs0.6_2.12-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.12/0.1.4/sourcecode_sjs0.6_2.12-0.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12">
+			<revision name="0.9.6" status="release" pubdate="20180520131345" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.12\ivy-0.9.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.6/scalajs-dom_sjs0.6_2.12-0.9.6.pom"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.6.7"/>
+				<caller organisation="default" name="doismil_sjs0.6_2.12" conf="compile-internal, compile, provided, optional" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1961781" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.12\jars\scalajs-dom_sjs0.6_2.12-0.9.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.6/scalajs-dom_sjs0.6_2.12-0.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.9.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.9.6"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.6.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.12">
+			<revision name="0.6.25" status="release" pubdate="20180831090204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.25/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="1">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-js\scalajs-library_2.12\ivy-0.6.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.25/scalajs-library_2.12-0.6.25.pom"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.12" conf="compile, runtime" rev="0.6.18" rev-constraint-default="0.6.18" rev-constraint-dynamic="0.6.18" callerrev="0.1.4"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.19" rev-constraint-default="0.6.19" rev-constraint-dynamic="0.6.19" callerrev="0.6.7"/>
+				<caller organisation="default" name="doismil_sjs0.6_2.12" conf="compile-internal, compile, provided, optional" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.1"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.12" type="jar" ext="jar" status="no" details="" size="6513510" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-js\scalajs-library_2.12\jars\scalajs-library_2.12-0.6.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.25/scalajs-library_2.12-0.6.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.18" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.25"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.12" conf="compile, runtime" rev="0.6.18" rev-constraint-default="0.6.18" rev-constraint-dynamic="0.6.18" callerrev="0.1.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.19" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.25"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.12" conf="compile, runtime" rev="0.6.18" rev-constraint-default="0.6.18" rev-constraint-dynamic="0.6.18" callerrev="0.1.4"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.19" rev-constraint-default="0.6.19" rev-constraint-dynamic="0.6.19" callerrev="0.6.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.23" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.25"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927053542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1.4"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.6.25"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.6.7"/>
+				<caller organisation="default" name="doismil_sjs0.6_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.9.6"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="C:\Users\selto\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
